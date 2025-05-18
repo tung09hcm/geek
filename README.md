@@ -2,7 +2,7 @@ Dưới đây là một **README outline** giúp bạn trình bày đầy đủ 
 
 ---
 
-# 🛍️ E-Commerce Platform Database & API Design
+# E-Commerce Platform Database & API Design
 
 ## 📋 Table of Contents
 
@@ -167,7 +167,7 @@ CREATE TABLE user_has_order (
 * **1NF**: No multivalued columns, atomic values.
 * **2NF**: All non-key columns fully dependent on the primary key.
 * **3NF**: No transitive dependencies; data split into separate related tables.
-
+* **BCNF**: Every determinant is a candidate key.
 ---
 
 ## B. Sample Order Insertion
